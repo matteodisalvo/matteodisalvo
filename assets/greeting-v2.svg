@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="105" viewBox="0 0 1000 105" role="img" aria-labelledby="greeting-title greeting-desc">
+  <title id="greeting-title">A multilingual greeting from Matteo</title>
+  <desc id="greeting-desc">A clean typewriter animation cycling through Ciao, Hello, Hola, Salut, and Hallo.</desc>
+
+  <defs>
+    <linearGradient id="ink" x1="365" y1="0" x2="635" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#168DBB"/>
+      <stop offset="0.5" stop-color="#7659D4"/>
+      <stop offset="1" stop-color="#159B73"/>
+    </linearGradient>
+
+    <g id="wave-hand" stroke="#8A5728" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M17.7 42.2c-3.4-3.6-5.7-8-7.1-12.4L6.9 18.2a3.1 3.1 0 0 1 5.9-1.9l3 9.2-5.5-17.2a3.2 3.2 0 0 1 6.1-1.9l5.4 16.8L17.4 9.6a3.2 3.2 0 1 1 6.1-1.9l4.6 14.4-3.3-10.4a3.1 3.1 0 0 1 5.9-1.9l4.4 13.8-1.4-4.4a3 3 0 0 1 5.7-1.8l3.1 9.8c2.5 7.8-1.8 16.1-9.6 18.6-5.5 1.8-11.2.2-15.2-3.6Z" fill="#FFCB69"/>
+      <path d="M17.7 42.2c4.3 1.4 9 1.3 13.5-.1M14.8 34.5c3.7.2 7.2-1 10.2-3.4" fill="none" opacity=".35"/>
+      <path d="M3.3 8.4C.6 11.2-.4 14.2.3 17.5M35.7 1c3.7 1.1 6.1 3.2 7.3 6.4" fill="none" stroke="#F0A93D"/>
+    </g>
+
+    <clipPath id="clip-it" clipPathUnits="userSpaceOnUse">
+      <rect class="clip-it" x="375" y="20" width="0" height="64">
+        <animate attributeName="width" values="0;26;52;78;104;130;156;182;205;205;182;156;130;104;78;52;26;0;0" keyTimes="0;.03;.06;.09;.12;.15;.18;.21;.24;.62;.67;.71;.75;.79;.83;.87;.91;.95;1" dur="4s" repeatCount="indefinite" calcMode="discrete"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-en" clipPathUnits="userSpaceOnUse">
+      <rect x="375" y="20" width="0" height="64">
+        <animate attributeName="width" values="0;29;58;87;116;145;174;203;232;232;203;174;145;116;87;58;29;0;0" keyTimes="0;.03;.06;.09;.12;.15;.18;.21;.24;.62;.67;.71;.75;.79;.83;.87;.91;.95;1" dur="4s" repeatCount="indefinite" calcMode="discrete"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-es" clipPathUnits="userSpaceOnUse">
+      <rect x="375" y="20" width="0" height="64">
+        <animate attributeName="width" values="0;29;58;87;116;145;174;203;232;232;203;174;145;116;87;58;29;0;0" keyTimes="0;.03;.06;.09;.12;.15;.18;.21;.24;.62;.67;.71;.75;.79;.83;.87;.91;.95;1" dur="4s" repeatCount="indefinite" calcMode="discrete"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-fr" clipPathUnits="userSpaceOnUse">
+      <rect x="375" y="20" width="0" height="64">
+        <animate attributeName="width" values="0;32;64;96;128;160;192;224;258;258;224;192;160;128;96;64;32;0;0" keyTimes="0;.03;.06;.09;.12;.15;.18;.21;.24;.62;.67;.71;.75;.79;.83;.87;.91;.95;1" dur="4s" repeatCount="indefinite" calcMode="discrete"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip-de" clipPathUnits="userSpaceOnUse">
+      <rect x="375" y="20" width="0" height="64">
+        <animate attributeName="width" values="0;29;58;87;116;145;174;203;232;232;203;174;145;116;87;58;29;0;0" keyTimes="0;.03;.06;.09;.12;.15;.18;.21;.24;.62;.67;.71;.75;.79;.83;.87;.91;.95;1" dur="4s" repeatCount="indefinite" calcMode="discrete"/>
+      </rect>
+    </clipPath>
+
+    <style>
+      .text { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 50px; font-weight: 800; }
+      .lang { opacity: 0; }
+      .it { opacity: 1; }
+      @media (prefers-color-scheme: dark) { .shadow { stroke: #D7EDFF; } }
+      @media (prefers-reduced-motion: reduce) {
+        .lang { opacity: 0 !important; }
+        .lang.it { opacity: 1 !important; }
+        .cursor { display: none !important; }
+        .clip-it { width: 205px !important; }
+      }
+    </style>
+  </defs>
+
+  <path class="shadow" d="M365 91H635" stroke="#D4E8F5" stroke-width="2" stroke-linecap="round" opacity=".55"/>
+
+  <g class="lang it">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.1999;.2;1" dur="20s" repeatCount="indefinite" calcMode="discrete"/>
+    <text x="375" y="70" class="text" clip-path="url(#clip-it)" fill="url(#ink)">Ciao!</text>
+    <g transform="translate(535 27) scale(.92)">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.239;.24;.62;.621;1" dur="4s" repeatCount="indefinite" calcMode="discrete"/>
+      <use href="#wave-hand"/>
+    </g>
+    <rect class="cursor" x="375" y="26" width="5" height="50" rx="2" fill="#168DBB">
+      <animate attributeName="x" values="375;401;427;453;479;505;531;557;580;580;557;531;505;479;453;427;401;375;375" keyTimes="0;.03;.06;.09;.12;.15;.18;.21;.24;.62;.67;.71;.75;.79;.83;.87;.91;.95;1" dur="4s" repeatCount="indefinite" calcMode="discrete"/>
+      <animate attributeName="opacity" values="1;0;1" dur=".72s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g class="lang en">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.1999;.2;.3999;.4;1" dur="20s" repeatCount="indefinite" calcMode="discrete"/>
+    <text x="375" y="70" class="text" clip-path="url(#clip-en)" fill="url(#ink)">Hello!</text>
+    <g transform="translate(565 27) scale(.92)">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.239;.24;.62;.621;1" dur="4s" repeatCount="indefinite" calcMode="discrete"/>
+      <use href="#wave-hand"/>
+    </g>
+    <rect class="cursor" x="375" y="26" width="5" height="50" rx="2" fill="#7659D4">
+      <animate attributeName="x" values="375;404;433;462;491;520;549;578;607;607;578;549;520;491;462;433;404;375;375" keyTimes="0;.03;.06;.09;.12;.15;.18;.21;.24;.62;.67;.71;.75;.79;.83;.87;.91;.95;1" dur="4s" repeatCount="indefinite" calcMode="discrete"/>
+      <animate attributeName="opacity" values="1;0;1" dur=".72s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g class="lang es">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.3999;.4;.5999;.6;1" dur="20s" repeatCount="indefinite" calcMode="discrete"/>
+    <text x="375" y="70" class="text" clip-path="url(#clip-es)" fill="url(#ink)">¡Hola!</text>
+    <g transform="translate(565 27) scale(.92)">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.239;.24;.62;.621;1" dur="4s" repeatCount="indefinite" calcMode="discrete"/>
+      <use href="#wave-hand"/>
+    </g>
+    <rect class="cursor" x="375" y="26" width="5" height="50" rx="2" fill="#159B73">
+      <animate attributeName="x" values="375;404;433;462;491;520;549;578;607;607;578;549;520;491;462;433;404;375;375" keyTimes="0;.03;.06;.09;.12;.15;.18;.21;.24;.62;.67;.71;.75;.79;.83;.87;.91;.95;1" dur="4s" repeatCount="indefinite" calcMode="discrete"/>
+      <animate attributeName="opacity" values="1;0;1" dur=".72s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g class="lang fr">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.5999;.6;.7999;.8;1" dur="20s" repeatCount="indefinite" calcMode="discrete"/>
+    <text x="375" y="70" class="text" clip-path="url(#clip-fr)" fill="url(#ink)">Salut !</text>
+    <g transform="translate(595 27) scale(.92)">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.239;.24;.62;.621;1" dur="4s" repeatCount="indefinite" calcMode="discrete"/>
+      <use href="#wave-hand"/>
+    </g>
+    <rect class="cursor" x="375" y="26" width="5" height="50" rx="2" fill="#C87C2B">
+      <animate attributeName="x" values="375;407;439;471;503;535;567;599;633;633;599;567;535;503;471;439;407;375;375" keyTimes="0;.03;.06;.09;.12;.15;.18;.21;.24;.62;.67;.71;.75;.79;.83;.87;.91;.95;1" dur="4s" repeatCount="indefinite" calcMode="discrete"/>
+      <animate attributeName="opacity" values="1;0;1" dur=".72s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g class="lang de">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.7999;.8;.9999;1" dur="20s" repeatCount="indefinite" calcMode="discrete"/>
+    <text x="375" y="70" class="text" clip-path="url(#clip-de)" fill="url(#ink)">Hallo!</text>
+    <g transform="translate(565 27) scale(.92)">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.239;.24;.62;.621;1" dur="4s" repeatCount="indefinite" calcMode="discrete"/>
+      <use href="#wave-hand"/>
+    </g>
+    <rect class="cursor" x="375" y="26" width="5" height="50" rx="2" fill="#C84F79">
+      <animate attributeName="x" values="375;404;433;462;491;520;549;578;607;607;578;549;520;491;462;433;404;375;375" keyTimes="0;.03;.06;.09;.12;.15;.18;.21;.24;.62;.67;.71;.75;.79;.83;.87;.91;.95;1" dur="4s" repeatCount="indefinite" calcMode="discrete"/>
+      <animate attributeName="opacity" values="1;0;1" dur=".72s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
