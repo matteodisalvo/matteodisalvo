@@ -2,7 +2,9 @@
   <img src="./assets/hero.gif" width="100%" alt="Pixel-art AI laboratory transitioning from day to night, with Matteo Di Salvo's avatar" />
 </p>
 
-<h1 align="center">Ciao! 👋</h1>
+<p align="center">
+  <img src="./assets/greeting.svg" width="100%" alt="A typewriter greeting cycling through Italian, English, Spanish, French, and German" />
+</p>
 
 <p align="center">
   <strong>AI Engineer &amp; Researcher</strong><br />
