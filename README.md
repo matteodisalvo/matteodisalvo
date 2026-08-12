@@ -1,11 +1,5 @@
 <p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Matteo Di Salvo — AI Engineer and Researcher" />
-</p>
-
-<p align="center">
-  <a href="https://matteodisalvo.github.io/">
-    <img src="./assets/avatar-pixel.png" width="190" alt="Pixel-art avatar of Matteo Di Salvo" />
-  </a>
+  <img src="./assets/hero.gif" width="100%" alt="Pixel-art AI laboratory transitioning from day to night, with Matteo Di Salvo's avatar" />
 </p>
 
 <h1 align="center">Ciao! 👋</h1>
