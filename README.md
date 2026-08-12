@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://matteodisalvo.github.io/images/foto.jpg" width="140" alt="Portrait of Matteo Di Salvo" />
+  <img src="./assets/hero.svg" width="100%" alt="Matteo Di Salvo — AI Engineer and Researcher" />
 </p>
 
-<h1 align="center">Ciao, I'm Matteo 👋</h1>
+<h1 align="center">Ciao! 👋</h1>
 
 <p align="center">
   <strong>AI Engineer &amp; Researcher</strong><br />
@@ -51,4 +51,3 @@ A classical computer-vision pipeline for detecting pedestrian-crossing signs in 
 ### Elsewhere
 
 You can find my broader research, background, and contact details on my [portfolio](https://matteodisalvo.github.io/), or connect with me on [LinkedIn](https://it.linkedin.com/in/matteo-di-salvo-0a35801a5).
-
