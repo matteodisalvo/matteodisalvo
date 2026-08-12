@@ -36,7 +36,8 @@
     </clipPath>
 
     <style>
-      .text { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Apple Color Emoji", "Segoe UI Emoji", monospace; font-size: 50px; font-weight: 800; }
+      .text { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 50px; font-weight: 800; }
+      .emoji { font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif; font-size: 44px; }
       .lang { opacity: 0; }
       .it { opacity: 1; }
       @media (prefers-color-scheme: dark) { .shadow { stroke: #D7EDFF; } }
@@ -53,7 +54,10 @@
 
   <g class="lang it">
     <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.1999;.2;1" dur="20s" repeatCount="indefinite" calcMode="discrete"/>
-    <text x="375" y="70" class="text" clip-path="url(#clip-it)" fill="url(#ink)">Ciao! 👋</text>
+    <text x="375" y="70" class="text" clip-path="url(#clip-it)" fill="url(#ink)">Ciao!</text>
+    <text x="535" y="70" class="emoji">👋
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.239;.24;.62;.621;1" dur="4s" repeatCount="indefinite" calcMode="discrete"/>
+    </text>
     <rect class="cursor" x="375" y="26" width="5" height="50" rx="2" fill="#168DBB">
       <animate attributeName="x" values="375;401;427;453;479;505;531;557;580;580;557;531;505;479;453;427;401;375;375" keyTimes="0;.03;.06;.09;.12;.15;.18;.21;.24;.62;.67;.71;.75;.79;.83;.87;.91;.95;1" dur="4s" repeatCount="indefinite" calcMode="discrete"/>
       <animate attributeName="opacity" values="1;0;1" dur=".72s" repeatCount="indefinite"/>
@@ -62,7 +66,10 @@
 
   <g class="lang en">
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.1999;.2;.3999;.4;1" dur="20s" repeatCount="indefinite" calcMode="discrete"/>
-    <text x="375" y="70" class="text" clip-path="url(#clip-en)" fill="url(#ink)">Hello! 👋</text>
+    <text x="375" y="70" class="text" clip-path="url(#clip-en)" fill="url(#ink)">Hello!</text>
+    <text x="565" y="70" class="emoji">👋
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.239;.24;.62;.621;1" dur="4s" repeatCount="indefinite" calcMode="discrete"/>
+    </text>
     <rect class="cursor" x="375" y="26" width="5" height="50" rx="2" fill="#7659D4">
       <animate attributeName="x" values="375;404;433;462;491;520;549;578;607;607;578;549;520;491;462;433;404;375;375" keyTimes="0;.03;.06;.09;.12;.15;.18;.21;.24;.62;.67;.71;.75;.79;.83;.87;.91;.95;1" dur="4s" repeatCount="indefinite" calcMode="discrete"/>
       <animate attributeName="opacity" values="1;0;1" dur=".72s" repeatCount="indefinite"/>
@@ -71,7 +78,10 @@
 
   <g class="lang es">
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.3999;.4;.5999;.6;1" dur="20s" repeatCount="indefinite" calcMode="discrete"/>
-    <text x="375" y="70" class="text" clip-path="url(#clip-es)" fill="url(#ink)">¡Hola! 👋</text>
+    <text x="375" y="70" class="text" clip-path="url(#clip-es)" fill="url(#ink)">¡Hola!</text>
+    <text x="565" y="70" class="emoji">👋
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.239;.24;.62;.621;1" dur="4s" repeatCount="indefinite" calcMode="discrete"/>
+    </text>
     <rect class="cursor" x="375" y="26" width="5" height="50" rx="2" fill="#159B73">
       <animate attributeName="x" values="375;404;433;462;491;520;549;578;607;607;578;549;520;491;462;433;404;375;375" keyTimes="0;.03;.06;.09;.12;.15;.18;.21;.24;.62;.67;.71;.75;.79;.83;.87;.91;.95;1" dur="4s" repeatCount="indefinite" calcMode="discrete"/>
       <animate attributeName="opacity" values="1;0;1" dur=".72s" repeatCount="indefinite"/>
@@ -80,7 +90,10 @@
 
   <g class="lang fr">
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.5999;.6;.7999;.8;1" dur="20s" repeatCount="indefinite" calcMode="discrete"/>
-    <text x="375" y="70" class="text" clip-path="url(#clip-fr)" fill="url(#ink)">Salut ! 👋</text>
+    <text x="375" y="70" class="text" clip-path="url(#clip-fr)" fill="url(#ink)">Salut !</text>
+    <text x="595" y="70" class="emoji">👋
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.239;.24;.62;.621;1" dur="4s" repeatCount="indefinite" calcMode="discrete"/>
+    </text>
     <rect class="cursor" x="375" y="26" width="5" height="50" rx="2" fill="#C87C2B">
       <animate attributeName="x" values="375;407;439;471;503;535;567;599;633;633;599;567;535;503;471;439;407;375;375" keyTimes="0;.03;.06;.09;.12;.15;.18;.21;.24;.62;.67;.71;.75;.79;.83;.87;.91;.95;1" dur="4s" repeatCount="indefinite" calcMode="discrete"/>
       <animate attributeName="opacity" values="1;0;1" dur=".72s" repeatCount="indefinite"/>
@@ -89,7 +102,10 @@
 
   <g class="lang de">
     <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.7999;.8;.9999;1" dur="20s" repeatCount="indefinite" calcMode="discrete"/>
-    <text x="375" y="70" class="text" clip-path="url(#clip-de)" fill="url(#ink)">Hallo! 👋</text>
+    <text x="375" y="70" class="text" clip-path="url(#clip-de)" fill="url(#ink)">Hallo!</text>
+    <text x="565" y="70" class="emoji">👋
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.239;.24;.62;.621;1" dur="4s" repeatCount="indefinite" calcMode="discrete"/>
+    </text>
     <rect class="cursor" x="375" y="26" width="5" height="50" rx="2" fill="#C84F79">
       <animate attributeName="x" values="375;404;433;462;491;520;549;578;607;607;578;549;520;491;462;433;404;375;375" keyTimes="0;.03;.06;.09;.12;.15;.18;.21;.24;.62;.67;.71;.75;.79;.83;.87;.91;.95;1" dur="4s" repeatCount="indefinite" calcMode="discrete"/>
       <animate attributeName="opacity" values="1;0;1" dur=".72s" repeatCount="indefinite"/>
