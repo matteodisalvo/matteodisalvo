@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/greeting-v2.svg" width="100%" alt="A typewriter greeting cycling through Italian, English, Spanish, French, and German" />
+  <img src="./assets/greeting.svg" width="100%" alt="A typewriter greeting cycling through Italian, English, Spanish, French, and German" />
 </p>
 
 <p align="center">
