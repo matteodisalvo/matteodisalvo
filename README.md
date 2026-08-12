@@ -30,6 +30,7 @@ I work at the intersection of **computer vision**, **deep learning**, and **medi
 - 🧪 Interested in rigorous evaluation, reproducibility, and trustworthy AI
 - ⚛️ Background in computer engineering and quantum computing
 
+<!--
 ### Featured project
 
 #### [🚸 PACE — Pedestrian-crossing Automated Classification Engine](https://github.com/matteodisalvo/PACE-Pedestrian-crossing-Automated-Classification-Engine)
@@ -49,6 +50,8 @@ A classical computer-vision pipeline for detecting pedestrian-crossing signs in 
   <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" />
 </p>
+
+-->
 
 ### Elsewhere
 
