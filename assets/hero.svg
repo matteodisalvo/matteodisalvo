@@ -1,0 +1,109 @@
+<svg width="1000" height="260" viewBox="0 0 1000 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Matteo Di Salvo — AI Engineer and Researcher</title>
+  <desc id="desc">Animated header with a shifting gradient, floating particles, and a typing effect highlighting computer vision, deep learning, and medical imaging.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1000" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1117" />
+      <stop offset="0.5" stop-color="#151B2F" />
+      <stop offset="1" stop-color="#0D1117" />
+    </linearGradient>
+
+    <linearGradient id="accent" x1="170" y1="0" x2="830" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#58A6FF">
+        <animate attributeName="stop-color" values="#58A6FF;#A371F7;#3FB950;#58A6FF" dur="9s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="0.5" stop-color="#A371F7">
+        <animate attributeName="stop-color" values="#A371F7;#3FB950;#58A6FF;#A371F7" dur="9s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="1" stop-color="#3FB950">
+        <animate attributeName="stop-color" values="#3FB950;#58A6FF;#A371F7;#3FB950" dur="9s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(500 125) rotate(90) scale(170 420)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#58A6FF" stop-opacity="0.18" />
+      <stop offset="1" stop-color="#58A6FF" stop-opacity="0" />
+    </radialGradient>
+
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#8B949E" stroke-opacity="0.10" stroke-width="1" />
+    </pattern>
+
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" />
+    </filter>
+
+    <clipPath id="typingClip">
+      <rect x="248" y="176" width="0" height="30">
+        <animate attributeName="width" values="0;0;504;504;0" keyTimes="0;0.10;0.58;0.88;1" dur="8s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+  </defs>
+
+  <rect width="1000" height="260" rx="24" fill="url(#background)" />
+  <rect width="1000" height="260" rx="24" fill="url(#grid)" />
+  <ellipse cx="500" cy="125" rx="420" ry="170" fill="url(#glow)">
+    <animate attributeName="opacity" values="0.55;1;0.55" dur="6s" repeatCount="indefinite" />
+  </ellipse>
+
+  <path d="M0 215C170 175 285 248 455 215C625 182 760 155 1000 205V260H0V215Z" fill="url(#accent)" opacity="0.10">
+    <animate attributeName="d" values="M0 215C170 175 285 248 455 215C625 182 760 155 1000 205V260H0V215Z;M0 200C175 244 305 170 475 207C645 244 785 222 1000 182V260H0V200Z;M0 215C170 175 285 248 455 215C625 182 760 155 1000 205V260H0V215Z" dur="11s" repeatCount="indefinite" />
+  </path>
+
+  <g stroke="url(#accent)" stroke-opacity="0.35" stroke-width="1">
+    <path d="M96 78L160 48L218 88" />
+    <path d="M782 78L842 45L910 82" />
+    <path d="M102 82L160 122L215 91" />
+    <path d="M784 82L842 124L907 85" />
+  </g>
+
+  <g fill="url(#accent)">
+    <circle cx="96" cy="78" r="3">
+      <animate attributeName="r" values="2;5;2" dur="3.7s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="160" cy="48" r="4">
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="4.3s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="218" cy="88" r="3">
+      <animate attributeName="r" values="4;2;4" dur="4.8s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="160" cy="122" r="3">
+      <animate attributeName="opacity" values="1;0.3;1" dur="5.1s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="782" cy="78" r="3">
+      <animate attributeName="r" values="3;5;3" dur="4.1s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="842" cy="45" r="4">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="3.9s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="910" cy="82" r="3">
+      <animate attributeName="r" values="4;2;4" dur="5.3s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="842" cy="124" r="3">
+      <animate attributeName="opacity" values="1;0.25;1" dur="4.6s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <circle cx="500" cy="42" r="23" fill="url(#accent)" opacity="0.15" filter="url(#softGlow)">
+    <animate attributeName="r" values="18;31;18" dur="5s" repeatCount="indefinite" />
+  </circle>
+
+  <text x="500" y="91" text-anchor="middle" fill="#F0F6FC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="46" font-weight="700" letter-spacing="0.4">Matteo Di Salvo</text>
+  <rect x="344" y="106" width="312" height="3" rx="1.5" fill="url(#accent)">
+    <animate attributeName="width" values="120;312;120" dur="7s" repeatCount="indefinite" />
+    <animate attributeName="x" values="440;344;440" dur="7s" repeatCount="indefinite" />
+  </rect>
+  <text x="500" y="151" text-anchor="middle" fill="#C9D1D9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22" font-weight="600" letter-spacing="1.8">AI ENGINEER &amp; RESEARCHER</text>
+
+  <g clip-path="url(#typingClip)">
+    <text x="248" y="199" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16">Computer Vision  •  Deep Learning  •  Medical Imaging</text>
+  </g>
+
+  <rect x="248" y="180" width="2" height="23" rx="1" fill="#58A6FF">
+    <animate attributeName="x" values="248;248;752;752;248" keyTimes="0;0.10;0.58;0.88;1" dur="8s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="1;0;1;0;1" dur="0.8s" repeatCount="indefinite" />
+  </rect>
+
+  <rect x="1" y="1" width="998" height="258" rx="23" stroke="url(#accent)" stroke-opacity="0.38" stroke-width="2" />
+</svg>
