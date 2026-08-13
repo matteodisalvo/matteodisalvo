@@ -1,46 +1,26 @@
 <table align="center" width="100%" cellpadding="12" cellspacing="0" border="1" bordercolor="#30363d">
-  <tr>
-    <td align="center" bgcolor="#0d1117">
-
-      <img
-        src="https://raw.githubusercontent.com/matteodisalvo/matteodisalvo/main/assets/hero.gif"
-        width="100%"
-        alt="Pixel-art AI laboratory transitioning from day to night"
-      />
-
-      <br />
-
-      <img
-        src="https://raw.githubusercontent.com/matteodisalvo/matteodisalvo/main/assets/greeting.svg"
-        width="100%"
-        alt="A typewriter greeting cycling through Italian, English, Spanish, French, and German"
-      />
-
-    </td>
-  </tr>
+<tr>
+<td align="center" bgcolor="#0d1117">
+<img src="https://raw.githubusercontent.com/matteodisalvo/matteodisalvo/main/assets/hero.gif" width="100%" alt="Pixel-art AI laboratory transitioning from day to night">
+<br>
+<img src="https://raw.githubusercontent.com/matteodisalvo/matteodisalvo/main/assets/greeting.svg" width="100%" alt="A typewriter greeting cycling through Italian, English, Spanish, French, and German">
+</td>
+</tr>
 </table>
 
-<br />
+<br>
 
 <p align="center">
-  <strong>AI Engineer &amp; Researcher</strong><br />
-  Computer Engineer and PhD student at Sapienza University of Rome<br />
+  <strong>AI Engineer &amp; Researcher</strong><br>
+  Computer Engineer and PhD student at Sapienza University of Rome<br>
   working on deep learning for medical and biomedical imaging.
 </p>
 
 <p align="center">
-  <a href="https://matteodisalvo.github.io/">
-    <img src="https://img.shields.io/badge/Portfolio-111827?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" />
-  </a>
-  <a href="https://it.linkedin.com/in/matteo-di-salvo-0a35801a5">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://scholar.google.com/citations?user=d6Q5hNAAAAAJ">
-    <img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white" alt="Google Scholar" />
-  </a>
-  <a href="https://www.researchgate.net/profile/Matteo-Di-Salvo-2">
-    <img src="https://img.shields.io/badge/ResearchGate-00CCBB?style=flat-square&logo=researchgate&logoColor=white" alt="ResearchGate" />
-  </a>
+  <a href="https://matteodisalvo.github.io/"><img src="https://img.shields.io/badge/Portfolio-111827?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio"></a>
+  <a href="https://it.linkedin.com/in/matteo-di-salvo-0a35801a5"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://scholar.google.com/citations?user=d6Q5hNAAAAAJ"><img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white" alt="Google Scholar"></a>
+  <a href="https://www.researchgate.net/profile/Matteo-Di-Salvo-2"><img src="https://img.shields.io/badge/ResearchGate-00CCBB?style=flat-square&logo=researchgate&logoColor=white" alt="ResearchGate"></a>
 </p>
 
 ---
@@ -60,6 +40,7 @@ I work at the intersection of **computer vision**, **deep learning**, and **medi
 
 You can find my broader research, background, and contact details on my [portfolio](https://matteodisalvo.github.io/), or connect with me on [LinkedIn](https://it.linkedin.com/in/matteo-di-salvo-0a35801a5).
 <!--
+
 ### Featured project
 
 #### [🚸 PACE — Pedestrian-crossing Automated Classification Engine](https://github.com/matteodisalvo/PACE-Pedestrian-crossing-Automated-Classification-Engine)
