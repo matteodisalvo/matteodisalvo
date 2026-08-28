@@ -11,7 +11,7 @@
 <br>
 
 <p align="center">
-  <strong>AI Engineer &amp; Researcher</strong><br>
+  <!-- <strong>AI Engineer &amp; Researcher</strong><br> --!>
   Computer Engineer and PhD student at Sapienza University of Rome<br>
   working on deep learning for medical and biomedical imaging.
 </p>
