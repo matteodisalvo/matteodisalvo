@@ -8,9 +8,7 @@
 
 <br>
 
-<table align="center" width="100%" cellpadding="12" cellspacing="0" border="1" bordercolor="#30363d">
-<tr>
-<td align="center" bgcolor="#0d1117">
+<div align="center">
 <img src="https://raw.githubusercontent.com/matteodisalvo/matteodisalvo/main/assets/about.svg" width="100%" alt="I’m Matteo, Computer Engineer and PhD student at Sapienza University of Rome, working on deep learning for medical and biomedical imaging. About: I work at the intersection of computer vision, deep learning, and medical imaging. I enjoy turning research ideas into reproducible, carefully evaluated systems that can move beyond a notebook and into real-world use. Research: medical imaging, deep learning methods for medical and biomedical imaging; computer vision, self-supervised learning and model interpretability; trustworthy AI, rigorous evaluation, reproducibility and explainability; quantum computing, a background in computer engineering and quantum computing.">
 <br><br>
 <a href="https://matteodisalvo.github.io/"><img src="https://img.shields.io/badge/Portfolio-161616?style=for-the-badge&logo=vercel&logoColor=eceae4" alt="Portfolio"></a>
@@ -19,9 +17,7 @@
 <a href="https://www.researchgate.net/profile/Matteo-Di-Salvo-2"><img src="https://img.shields.io/badge/ResearchGate-161616?style=for-the-badge&logo=researchgate&logoColor=eceae4" alt="ResearchGate"></a>
 <br><br>
 <sub>You can find my broader research, background, and contact details on my <a href="https://matteodisalvo.github.io/">portfolio</a>, or connect with me on <a href="https://it.linkedin.com/in/matteo-di-salvo-0a35801a5">LinkedIn</a>.</sub>
-</td>
-</tr>
-</table>
+</div>
 <!--
 
 ### Featured project
@@ -45,3 +41,4 @@ A classical computer-vision pipeline for detecting pedestrian-crossing signs in 
 </p>
 
 -->
+
